@@ -3,13 +3,12 @@
 *.m     linguist-language=Objective-C
 *.mm    linguist-language=Objective-C++
 *.h     linguist-language=Objective-C
-
 # Docs & assets shouldn't dominate language stats
 *.md              linguist-documentation
 screenshots/**    linguist-documentation
 media/**          linguist-documentation
-
 # Third-party / generated
 Pods/**           linguist-vendored
 Carthage/**       linguist-vendored
 *.framework       linguist-vendored
+*.mp4 filter=lfs diff=lfs merge=lfs -text
