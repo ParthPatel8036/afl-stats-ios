@@ -91,15 +91,49 @@ If the inline player doesn’t show, view/download directly: **[media/afl-demo-7
 
 ---
 
-## 🧱 Project structure (example)
+```text
 AFLStatsiOS/
-├─ Sources / ViewControllers / (Home, Teams, AddTeam, NewMatch, MatchScore, Loader)
-├─ Models /
-├─ Services / Firebase/
-├─ Resources / (Assets, Storyboards, GoogleService-Info.plist)
-├─ screenshots/ # images for README
-└─ media/ # demo.mp4 (use LFS if >100MB)
-
+├─ AFL.xcodeproj
+├─ AFL.xcworkspace
+├─ AFL/
+│  ├─ Assets.xcassets/
+│  ├─ Controllers/
+│  │  ├─ HomeController.swift
+│  │  ├─ NewMatchController.swift
+│  │  ├─ TeamsController.swift
+│  │  ├─ MatchScoreController.swift
+│  │  └─ LoaderController.swift
+│  ├─ Models/
+│  │  ├─ Player.swift
+│  │  ├─ Team.swift
+│  │  ├─ Match.swift
+│  │  └─ PlayerStats.swift
+│  ├─ Notifications/
+│  │  └─ Notifications.swift
+│  ├─ Storyboards/
+│  │  ├─ Base.lproj/
+│  │  │  ├─ Main.storyboard
+│  │  │  └─ LaunchScreen.storyboard
+│  │  └─ TableCell/
+│  │     ├─ AddTeamCell.swift
+│  │     ├─ MatchesCell.swift
+│  │     ├─ ScoreCardCell.swift
+│  │     └─ …
+│  ├─ Helpers/
+│  │  └─ Extensions.swift
+│  ├─ DatabaseManager/
+│  │  └─ DatabaseManager.swift
+│  ├─ Enums/
+│  │  └─ Enum.swift
+│  ├─ Info.plist
+│  ├─ GoogleService-Info.plist   # add your own (not committed)
+│  └─ …
+├─ screenshots/                  # images for README
+├─ media/                        # demo video (LFS or <100 MB)
+├─ Podfile
+├─ LICENSE
+└─ README.md
+```
 
 ---
 
