@@ -54,19 +54,40 @@ Built with **Swift (UIKit)** and **Firebase Realtime Database**.
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/home.png" width="240" alt="Home"/><div><sub>screenshots/home.png</sub></div></td>
-    <td align="center"><img src="screenshots/create_team.png" width="240" alt="Create Team"/><div><sub>screenshots/create_team.png</sub></div></td>
-    <td align="center"><img src="screenshots/match_score.png" width="240" alt="Match Score"/><div><sub>screenshots/match_score.png</sub></div></td>
+    <td align="center"><img src="screenshots/home.png" width="210" alt="Home"/><div><sub>home.png</sub></div></td>
+    <td align="center"><img src="screenshots/create_team.png" width="210" alt="Create Team"/><div><sub>create_team.png</sub></div></td>
+    <td align="center"><img src="screenshots/create_player.png" width="210" alt="Create Player"/><div><sub>create_player.png</sub></div></td>
+    <td align="center"><img src="screenshots/manage_team_and_lineups.png" width="210" alt="Manage Team & Lineups"/><div><sub>manage_team_and_lineups.png</sub></div></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/create_match.png" width="210" alt="Create Match"/><div><sub>create_match.png</sub></div></td>
+    <td align="center"><img src="screenshots/match_preview.png" width="210" alt="Match Preview"/><div><sub>match_preview.png</sub></div></td>
+    <td align="center"><img src="screenshots/match_details.png" width="210" alt="Match Details"/><div><sub>match_details.png</sub></div></td>
+    <td align="center"><img src="screenshots/match_completed.png" width="210" alt="Match Completed"/><div><sub>match_completed.png</sub></div></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/matches_result.png" width="210" alt="Matches Result"/><div><sub>matches_result.png</sub></div></td>
+    <td align="center"><img src="screenshots/recent_matches.png" width="210" alt="Recent Matches"/><div><sub>recent_matches.png</sub></div></td>
+    <td align="center"><img src="screenshots/compare_players_and_teams.png" width="210" alt="Compare Players & Teams"/><div><sub>compare_players_and_teams.png</sub></div></td>
+    <td align="center"><img src="screenshots/teams_comparison.png" width="210" alt="Teams Comparison"/><div><sub>teams_comparison.png</sub></div></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/players_comparison.png" width="210" alt="Players Comparison"/><div><sub>players_comparison.png</sub></div></td>
+    <td align="center"><img src="screenshots/4_quater_system.png" width="210" alt="4 Quarter System"/><div><sub>4_quater_system.png</sub></div></td>
+    <td align="center"><img src="screenshots/add_profile_photo.png" width="210" alt="Add Profile Photo"/><div><sub>add_profile_photo.png</sub></div></td>
+    <td align="center"><img src="screenshots/delete_team.png" width="210" alt="Delete Team"/><div><sub>delete_team.png</sub></div></td>
   </tr>
 </table>
 
 ---
 
 ## 🎥 Demo
-> Place `media/demo.mp4`. If >100 MB use Git LFS (see below).
+<!-- If you compressed to under 100 MB -->
+<video src="media/afl-demo-720p.mp4" width="720" controls poster="screenshots/home.png"></video>
 
-<video src="media/demo.mp4" width="720" controls></video>  
-If the inline player doesn’t show: **[media/demo.mp4](media/demo.mp4)**
+If the inline player doesn’t show, view/download directly: **[media/afl-demo-720p.mp4](media/afl-demo-720p.mp4)**
+
+<!-- If you used Git LFS without compressing, change both links above to media/afl-demo.mp4 -->
 
 ---
 
