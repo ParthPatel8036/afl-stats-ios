@@ -1,0 +1,41 @@
+# Xcode / Swift / ObjC
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# SwiftPM / CocoaPods / Carthage
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+Carthage/Build/
+Carthage/Checkouts/
+Pods/
+
+# Archives & logs
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.log
+
+# macOS cruft
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Our repo media (keep small files only)
+# (We’ll add Linguist rules below; media stays tracked if <100 MB)
