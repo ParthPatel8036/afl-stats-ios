@@ -91,6 +91,8 @@ If the inline player doesn’t show, view/download directly: **[media/afl-demo-7
 
 ---
 
+🧱 Project structure
+
 ```text
 AFLStatsiOS/
 ├─ AFL.xcodeproj
@@ -134,7 +136,6 @@ AFLStatsiOS/
 ├─ LICENSE
 └─ README.md
 ```
-
 ---
 
 ## 🔒 Notes
